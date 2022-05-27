@@ -1,120 +1,113 @@
 /* IMPOSTAZIONI GENERALI */
-* {text-align: center;}
-body {
-    font-family: 'Open Sans', sans-serif;;
-    line-height: 1.65rem;
-    font-size: 1.2rem;
-    color: #393d41;
-}
-
-p {
-    margin: 2rem;
-}
-
-/* HEADER */
-
-header {
-    padding: 2rem;
-    background-color: black;
-}
-
-header img{
-    height:35px;
-    width: 101px;
-}
-
-/* SECTION */
-
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: bold;
-    color: #25a2c3;
-}
-
-.zero {
-    font-family: 'Montserrat', sans-serif;
-    background-image: url(../images/banner.jpg);
-    padding: 2rem;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 2rem;
-}
-
-.zero h1 {
-    color: #25a2c3;
-    font-size: 2rem;
-    font-weight: bolder;
-}
-
-.zero button {
-    background-color: #f04c2f;
-    border-color: #f04c2f;
-    color: white;
-    border-radius: 5px;
-    padding: 1.4rem;
-    font-weight: bold;
-}
-.uno img {
-    border-radius: 100%;
-    margin-bottom: 2rem;
-}
-
-.due div{
-    border: #dee1e3 1px solid;
-    margin: 1.5em;
-
-}
-
-.due div img {
-    width: 330px;
-    height: 205px;
-}
-
-/* MAIN */
-
-article {
-    background-color: #e22d0e;
-    color: white;
-    padding: 2rem;
-    margin-bottom: 2rem;
-    margin-top: 3rem;
-}
-
-article h1 {
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bolder;
-    font-family: 'Montserrat', sans-serif;
-}
-
-blockquote {
-    font-style: italic;
-    font-size: 0.9rem;
-    margin-top: 2rem;
-}
-
-span {
-    font-size: small;
-}
-/* FOOTER */
-
-footer {
-    background-color: #25a2c3;
-    color: white;
-    padding: 2rem;
-    margin-bottom: 2rem;
-}
-
-footer a {
-    color: white;
-}
-
-footer a:hover {
-    color: #f04c2f;
-}
-
-footer h2 {
-    font-size: 2rem;
-    font-weight: bolder;
-    font-family: 'Montserrat', sans-serif;
-}
+*{  font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    line-height: 1.5em;}
+    
+    p, ul, h2, table, form {margin:10px}
+    
+    body {background-image: url(../img/sfondo.png);}
+    
+    h1, h2 {font-weight: bold;}
+    h1 {font-size: 1.5em;
+        line-height: 1.5em;
+        margin: 0.5em;}
+    
+    /* HEADER */
+    #container {height:250px; margin: 20px;
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(180deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 68%);
+        text-align: center;
+        text-transform: uppercase;
+        color: white;
+        font-weight: bold;}
+    
+    header img, div {margin: 1.5em}
+    
+    header p {margin-bottom: 1em;}
+    
+    nav li {margin: 0.5em;}
+    
+    nav {list-style-type: none;
+        padding: 0 25%;}
+    
+      /*  header nav li a::before {
+            content: "\22c6\0020";
+        }*/
+    
+    nav ul {list-style-type: none;}
+    
+    nav a {color: white;
+        text-decoration: none;}
+    
+    p, ul, h2, table, form {margin:10px}
+    
+    /* MAIN */
+    main {margin: 20px;
+        border: 1px solid gray;
+        background-color: white;}
+    
+    hr {display: none;}
+    
+    main ul {padding-left: 2em}
+    code {
+        background-color: #e3e3e3;
+        border: 1px solid #969494;
+        border-radius: 5px;
+    }
+    /* ELEMENTI NEL MAIN - ARTICLE */
+    
+    main ol {padding-left: 2.5em;}
+    
+    iframe {border-radius: 15px;
+            margin: 0.5em;
+            height: 10em;
+            width:18.7em;}
+    
+    /* TABELLE */
+    table {text-align: center;}
+    
+    tr, th {vertical-align: middle; padding: 0.5em;} 
+    
+    th {background-color: #3f6bca;
+        color: white;
+        height: 3em;
+        }
+    
+    td {height: 3em;
+        vertical-align: middle;}
+    
+    tr {border: 1px solid #ddd}
+    tr:nth-child(even) {background-color: #e3e3e3;}
+    
+    /* FORM */
+    section {background-color: #ddd;
+            margin: 0.5em;
+        padding: 0.5em;}
+    h2 {text-transform: uppercase;
+        text-align: center;
+        padding-top: 1em;
+        font-size: 1.3em;
+    }
+    form input {border: 0px;
+        border-bottom: 2px dotted black ;}
+    button {background-color: #3f6bca;
+            color: white;
+            font-weight: bold;}
+    /* ELEMENTI NELL' ASIDE */
+    aside div {background-color: #ddd;
+                padding: 0.5em;}
+    aside div a {color: rgb(12, 113, 190);
+                 font-weight: bold;}
+    /* FOOTER */
+    footer {
+        background: rgb(53,53,53);
+        background: linear-gradient(0deg, rgba(53,53,53,1) 0%, rgba(5,85,103,1) 68%);
+        box-shadow: 0 3px 3px #444;
+        color: #f0f0f0;
+        padding: 1em;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+    footer a {
+        color: fuchsia;
+    }
