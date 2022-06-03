@@ -1,0 +1,118 @@
+/* IMPOSTAZIONI GENERALI */
+* {text-align: center;
+   font-family: 'Fira Sans', sans-serif;
+}
+body {
+    color: #000;
+    font-size: 1.5rem;
+    
+
+}
+/* HEADER */
+
+#uno {
+    box-shadow:  #d3d3d3;
+    text-shadow: 1px 1px 2px black;
+}
+#uno p {
+    text-align: left;
+    font-size: small;
+    margin-top: 5px;
+}
+#uno h1 {
+    font-size: larger;
+    padding: 5px ;
+    text-align: left;
+
+}
+
+.zero {    animation: pulse 1.5s ;
+}
+
+.tre input, div input {
+    color: white;
+    background-image: linear-gradient(to right,#6cc1e2,#392f7a);
+    border: none;
+    padding: 1.4rem;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+input#menuButton {
+    display: none;
+}
+input#menuButton:checked ~ nav {
+   height: 150px; 
+}
+/* SECTION */
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    
+}
+
+#uno {
+    text-align: left;
+    background-image: url(../images/banner.jpg);
+    color: white;
+    padding: 2rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2rem;
+}
+
+/* MAIN */
+.due h3, .due p {
+    margin-bottom: 25px;
+}
+
+.tre {
+    background-color: #0c0633;
+    color: white;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 3rem;
+}
+.tre h1 {
+    color: white;
+    font-size: larger;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+.tre p {
+    font-size: small;
+}
+.tre input {
+    margin-bottom: 40px;
+}
+
+
+/* FOOTER */
+
+/* RESPONSIVE */
+@media  screen and (min-width: 768px) {
+    article {
+        padding: 7rem;
+    }
+}
+
+
+
+/* ----- */
+@keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.9);
+    }
+    
+    70% {
+      transform: scale(1.05);
+      box-shadow: 0 0 0 15px rgba(0, 0, 0, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+    }
+  }
