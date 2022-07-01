@@ -1,0 +1,8 @@
+@function textColor($bgc) {
+    @if (lightness($bgc) > 50) {
+        @return black;
+    }
+    @else {
+        @return white;
+    }
+}
